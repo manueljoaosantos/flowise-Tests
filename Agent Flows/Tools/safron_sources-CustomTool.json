@@ -1,0 +1,8 @@
+{
+  "name": "safron_sources",
+  "description": "Retrieve sources based on ONE keyword and a period.",
+  "color": "linear-gradient(rgb(176,185,224), rgb(228,255,134))",
+  "iconSrc": "",
+  "schema": "[{\"id\":1,\"property\":\"keyword\",\"description\":\"Provide a string of the keyword you need sources for. Example: \\\" OpenAI \\\"\",\"type\":\"string\",\"required\":true},{\"id\":2,\"property\":\"period\",\"description\":\"Provide a string with the period 'daily', 'weekly','monthly','quarterly' or 'none'\",\"type\":\"string\",\"required\":false}]",
+  "func": "const fetch = require('node-fetch');\n\nconst apiUrl = 'https://public.api.safron.io/v2/sources';\n\nlet payload = {};\nif ($keyword) payload.search = $keyword;\n\nconst url = `${apiUrl}?period=${$period}&limit=50`;\n\ntry {\n\tconst result = await makeApiRequest(payload, url);\n\treturn JSON.stringify(result);\n} catch (error) {\n\tconsole.warn('Initial request failed, retrying with keywords array...', error.message);\n\tif ($keyword) payload = {\n\t\tkeywords: [$keyword]\n\t};\n\ttry {\n\t\tconst retryResult = await makeApiRequest(payload, url);\n\t\treturn JSON.stringify(retryResult);\n\t} catch (retryError) {\n\t\tconsole.error('Retry failed:', retryError.message);\n\t\treturn `Error: ${retryError.message}`;\n\t}\n}\n\nasync function makeApiRequest(payload, url) {\n\tconst response = await fetch(url, {\n\t\tmethod: 'POST',\n\t\theaders: {\n\t\t\t'Content-Type': 'application/json',\n\t\t},\n\t\tbody: JSON.stringify(payload),\n\t});\n\n\tif (!response.ok) {\n\t\tthrow new Error(`Failed to fetch sources. URL: ${url} Payload: ${JSON.stringify(payload)}`);\n\t}\n\n\treturn await response.json();\n}"
+}
