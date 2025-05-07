@@ -1,0 +1,59 @@
+{
+  "name": "FAISS Initializer",
+  "description": "Inicializa FAISS com texto de exemplo",
+  "flowData": {
+    "nodes": [
+      {
+        "id": "input-text",
+        "data": {
+          "name": "Texto de Exemplo",
+          "text": "Este é um documento de exemplo para inicializar o FAISS no Flowise."
+        },
+        "label": "Texto",
+        "name": "InputText",
+        "type": "InputText",
+        "position": { "x": 100, "y": 100 }
+      },
+      {
+        "id": "text-splitter",
+        "data": {
+          "name": "Divisor de Texto",
+          "chunkSize": 500,
+          "chunkOverlap": 50
+        },
+        "label": "Text Splitter",
+        "name": "TextSplitter",
+        "type": "TextSplitter",
+        "position": { "x": 300, "y": 100 }
+      },
+      {
+        "id": "vector-store",
+        "data": {
+          "name": "Salvar no FAISS",
+          "vectorStoreType": "faiss",
+          "faissPath": "/home/manuel/Documents/Faiss",
+          "embeddings": "openai",
+          "output": "fromDocuments"
+        },
+        "label": "Vector Store (FAISS)",
+        "name": "VectorStore",
+        "type": "VectorStore",
+        "position": { "x": 500, "y": 100 }
+      }
+    ],
+    "edges": [
+      {
+        "source": "input-text",
+        "target": "text-splitter",
+        "sourceHandle": "output",
+        "targetHandle": "input"
+      },
+      {
+        "source": "text-splitter",
+        "target": "vector-store",
+        "sourceHandle": "output",
+        "targetHandle": "input"
+      }
+    ]
+  }
+}

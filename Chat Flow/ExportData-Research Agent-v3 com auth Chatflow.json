@@ -1,0 +1,145 @@
+{
+  "AgentFlow": [],
+  "AssistantFlow": [],
+  "AssistantCustom": [],
+  "AssistantOpenAI": [],
+  "AssistantAzure": [],
+  "ChatFlow": [],
+  "ChatMessage": [],
+  "ChatMessageFeedback": [],
+  "CustomTemplate": [],
+  "DocumentStore": [
+    {
+      "id": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "name": "Alexandre o Grande",
+      "description": "",
+      "loaders": "[{\"id\":\"caf538e7-1133-4d23-97aa-3b12615f1731\",\"loaderId\":\"pdfFile\",\"loaderName\":\"Pdf File\",\"loaderConfig\":{\"pdfFile\":\"FILE-STORAGE::[\\\"O Grande.pdf\\\"]\",\"textSplitter\":\"\",\"usage\":\"perPage\",\"legacyBuild\":\"\",\"metadata\":\"\",\"omitMetadataKeys\":\"\"},\"totalChunks\":10,\"totalChars\":7766,\"status\":\"SYNC\",\"files\":[{\"id\":\"3f63ecb2-a902-4987-bf7d-515c269c4704\",\"name\":\"O Grande.pdf\",\"mimePrefix\":\"application/pdf\",\"size\":48418,\"status\":\"NEW\",\"uploaded\":\"2025-05-04T16:53:23.128Z\"}],\"splitterId\":\"recursiveCharacterTextSplitter\",\"splitterName\":\"Recursive Character Text Splitter\",\"splitterConfig\":{\"chunkSize\":1000,\"chunkOverlap\":200,\"separators\":\"\"}}]",
+      "whereUsed": "[]",
+      "createdDate": "2025-05-04T16:25:07.000Z",
+      "updatedDate": "2025-05-04T16:58:59.000Z",
+      "status": "UPSERTED",
+      "vectorStoreConfig": "{\"config\":{\"document\":\"\",\"embeddings\":\"\",\"basePath\":\"/home/manuel/Documents/Faiss\",\"topK\":\"\"},\"name\":\"faiss\"}",
+      "embeddingConfig": "{\"config\":{\"modelName\":\"text-embedding-3-small\",\"stripNewLines\":\"\",\"batchSize\":\"\",\"timeout\":\"\",\"basepath\":\"\",\"dimensions\":\"\",\"credential\":\"eb87d1b6-871c-4773-b98b-bdb90ef36a17\"},\"name\":\"openAIEmbeddings\"}",
+      "recordManagerConfig": null
+    }
+  ],
+  "DocumentStoreFileChunk": [
+    {
+      "id": "6f0139c2-05b8-4480-89d6-c9b3f818f791",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 4,
+      "pageContent": "consolidou meu poder, mas também preparou o caminho para a invasão da \n Pérsia, um sonho que ardia em meu coração. \n ●  Preparativos para a Guerra: Com o apoio dos gregos, organizei um exército \n poderoso. Eram homens valentes, dispostos a seguir-me em busca da glória. \n A ideia de vingar as derrotas sofridas pelos gregos nas Guerras Médicas \n contra os persas me motivava a avançar. \n Capítulo 3: A Conquista da Pérsia \n Em 334 a.C., lancei-me na campanha contra o Império Persa. Com um exército de \n homens valentes, atravessei o Helesponto e entrei na Ásia Menor. \n ●  Batalha de Granico: A primeira grande batalha contra os persas ocorreu em \n 334 a.C. Com astúcia e bravura, derrotamos as forças persas, abrindo \n caminho para a conquista da Ásia. A vitória foi um marco, e minha reputação \n como líder militar começou a crescer. \n ●  A Batalha de Isso: Enfrentei o rei Dario III em 333 a.C. e, com uma estratégia \n brilhante, obtive uma vitória decisiva. A batalha foi intensa, mas minha",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":2,\"lines\":{\"from\":1,\"to\":15}}}"
+    },
+    {
+      "id": "9276fd29-7539-4596-8933-6d9901149a79",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 8,
+      "pageContent": "Apesar de enfrentar um exército numeroso e elefantes de guerra, minha \n estratégia e coragem garantiram a vitória. A batalha foi feroz, mas a \n determinação dos meus homens foi inabalável. \n ●  Respeito pelo Inimigo: Após a batalha, admirei a bravura de Porus e decidi \n poupá-lo, oferecendo-lhe um lugar como aliado em meu império. Essa \n decisão solidificou minha reputação como um líder justo e magnânimo, e \n Porus se tornou um valioso aliado. \n ●  Desafios e Descontentamento: Apesar das vitórias, a marcha para o leste \n começou a pesar sobre meus homens. O desejo de voltar para casa crescia \n entre eles, e em 325 a.C., após a batalha de Hidaspes, decidi retornar. A \n jornada de volta foi repleta de dificuldades, mas também de aprendizados. \n Capítulo 6: O Legado de Alexandre e Reflexões Finais \n Após anos de conquistas, meu corpo começou a se cansar. Em 323 a.C., em \n Babilônia, sucumbi a uma febre. Meu império era vasto, mas meu sonho de unir o",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":3,\"lines\":{\"from\":13,\"to\":26}}}"
+    },
+    {
+      "id": "ef16e663-b967-43c7-a84a-4e3126883bdf",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 9,
+      "pageContent": "Após anos de conquistas, meu corpo começou a se cansar. Em 323 a.C., em \n Babilônia, sucumbi a uma febre. Meu império era vasto, mas meu sonho de unir o \n mundo sob uma única cultura ainda não estava completo. \n ●  O Legado: Meu legado não é apenas de conquistas territoriais, mas de uma \n nova era de intercâmbio cultural. A fusão de culturas grega e oriental moldou \n o mundo que conhecemos hoje. As cidades que fundei, as ideias que \n espalhei e as culturas que integrei continuam a influenciar gerações.",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":3,\"lines\":{\"from\":25,\"to\":31}}}"
+    },
+    {
+      "id": "8e08b490-39cf-4862-855b-3d8962d875e2",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 10,
+      "pageContent": "●  Reflexão Final: Que minha história inspire aqueles que buscam a grandeza. A \n vida é uma jornada, e cada um de nós tem o poder de deixar uma marca \n indelével na história. Que as futuras gerações aprendam com minhas vitórias \n e derrotas, e que nunca deixem de sonhar grande. A vida é uma batalha, e \n cada um de nós deve lutar por seus ideais e aspirações. \n Conclusão \n Assim, amigos, esta é a minha história. Que as lições que aprendi ao longo do \n caminho sirvam como guia para aqueles que desejam trilhar o caminho da grandeza \n e da sabedoria. Que a chama da ambição nunca se apague em seus corações.",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":4,\"lines\":{\"from\":1,\"to\":9}}}"
+    },
+    {
+      "id": "763e2d6d-ab17-4d5a-b305-59e7a6e9fe73",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 6,
+      "pageContent": "Após derrotar os persas, continuei minha marcha para o leste, conquistando terras e \n fundando cidades. \n ●  A Fusão de Culturas: Sempre acreditei na fusão de culturas. Incentivei o \n casamento entre meus soldados e as mulheres locais, promovendo a união \n entre gregos e orientais. Essa política de integração cultural foi fundamental \n para a estabilidade do meu império e para a disseminação da cultura \n helenística. \n ●  A Batalha de Gaugamela: Em 331 a.C., enfrentei Dario III novamente na \n Batalha de Gaugamela. Com um exército menor, utilizei táticas inovadoras e",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":2,\"lines\":{\"from\":24,\"to\":32}}}"
+    },
+    {
+      "id": "65a0df22-4e61-46b5-b400-f646b6ff778e",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 3,
+      "pageContent": "controle sobre a Grécia. Na batalha de Queronéia, em 338 a.C., mostrei \n minha habilidade militar e minha determinação ao derrotar as forças \n combinadas de Atenas e Tebas. Com isso, garanti a supremacia macedônia \n sobre a Grécia. \n ●  Formação da Liga de Corinto: Após a vitória, fundei a Liga de Corinto, unindo \n as cidades-estado gregas sob meu comando. Essa aliança não apenas",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":1,\"lines\":{\"from\":26,\"to\":31}}}"
+    },
+    {
+      "id": "3a3f66bc-b33d-4bb8-b54b-74cb6642fba4",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 5,
+      "pageContent": "como líder militar começou a crescer. \n ●  A Batalha de Isso: Enfrentei o rei Dario III em 333 a.C. e, com uma estratégia \n brilhante, obtive uma vitória decisiva. A batalha foi intensa, mas minha \n determinação e a coragem dos meus soldados prevaleceram. Dario fugiu, e a \n fama de meu nome começou a se espalhar por toda a região. \n ●  A Conquista do Egito: Após a derrota dos persas, dirigi-me ao Egito, onde fui \n recebido como um libertador. Os egípcios viam em mim um faraó. Em 331 \n a.C., fundei a cidade de Alexandria, que se tornaria um centro de cultura e \n aprendizado. A cidade foi planejada com ruas largas e um grande porto, \n atraindo comerciantes e estudiosos de todo o mundo. \n Capítulo 4: A Expansão e a Integração Cultural \n Após derrotar os persas, continuei minha marcha para o leste, conquistando terras e \n fundando cidades. \n ●  A Fusão de Culturas: Sempre acreditei na fusão de culturas. Incentivei o",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":2,\"lines\":{\"from\":13,\"to\":26}}}"
+    },
+    {
+      "id": "0bad2f7a-cf10-4d28-90e9-f6ea5312f268",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 2,
+      "pageContent": "crucial. Ela me contava histórias sobre heróis e deuses, instigando em mim o \n desejo de ser mais do que um simples mortal. Acreditava que eu era \n descendente de Hércules e de Zeus, e isso alimentou meu desejo de realizar \n grandes feitos. \n ●  A Morte de Filipe: Em 336 a.C., meu pai foi assassinado. A tragédia me \n atingiu profundamente, mas também acendeu em mim uma chama de \n determinação. Assumi o trono da Macedônia com apenas 20 anos, ciente de \n que eu deveria honrar seu legado e expandir nosso império. \n Capítulo 2: Ascensão ao Trono e Consolidação do Poder \n Após a morte de meu pai, enfrentei um reino dividido e ameaças internas. A \n responsabilidade era imensa, mas eu estava determinado a estabelecer meu \n domínio. \n ●  Consolidação do Poder: Enfrentei rebeliões e rapidamente estabeleci meu \n controle sobre a Grécia. Na batalha de Queronéia, em 338 a.C., mostrei \n minha habilidade militar e minha determinação ao derrotar as forças",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":1,\"lines\":{\"from\":13,\"to\":27}}}"
+    },
+    {
+      "id": "507445ff-389a-4092-a738-aabeb52b35d6",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 7,
+      "pageContent": "uma manobra ousada que resultou em uma vitória esmagadora. Essa batalha \n consolidou meu controle sobre o Império Persa e me permitiu avançar ainda \n mais para o leste. \n ●  A Fundação de Cidades: Ao longo de minha jornada, fundei várias cidades \n que levavam meu nome, como Alexandria, mas também outras que se \n tornaram centros de comércio e cultura. Essas cidades eram projetadas para \n serem pontos de encontro entre as culturas grega e oriental, promovendo o \n intercâmbio de ideias e tradições. \n Capítulo 5: A Campanha na Índia e os Desafios \n Minha ambição não conhecia limites. Em 326 a.C., atravessei o rio Indo e entrei na \n Índia, onde enfrentei o rei Porus. \n ●  Batalha do Hidaspes: Uma das batalhas mais memoráveis da minha vida. \n Apesar de enfrentar um exército numeroso e elefantes de guerra, minha \n estratégia e coragem garantiram a vitória. A batalha foi feroz, mas a \n determinação dos meus homens foi inabalável.",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":3,\"lines\":{\"from\":1,\"to\":15}}}"
+    },
+    {
+      "id": "42b2dffe-794c-46be-b21f-720032766e19",
+      "docId": "caf538e7-1133-4d23-97aa-3b12615f1731",
+      "storeId": "1d1d2bff-e54c-4e1d-b34e-ab303bb4b81a",
+      "chunkNo": 1,
+      "pageContent": "A História de Alexandre, o Grande \n Capítulo 1: Minha Origem e Infância \n Saudações, nobres amigos! Eu sou Alexandre, filho do rei Filipe II da Macedônia e \n da rainha Olímpia. Nasci em 356 a.C. na cidade de Pella, a capital do meu reino. \n Desde pequeno, fui ensinado a valorizar a coragem e a sabedoria. Meu pai, um \n grande conquistador, sempre me inspirou a buscar a grandeza. \n ●  Educação: Desde os meus sete anos, fui educado por Aristóteles, o maior \n filósofo da época. Ele me ensinou sobre filosofia, ciência, e a importância da \n cultura. Aprendi a amar a sabedoria e a buscar o conhecimento em todas as \n suas formas. Nossos debates sobre ética e política moldaram minha visão de \n mundo. \n ●  Influências Maternas: A influência de minha mãe, Olímpia, foi igualmente \n crucial. Ela me contava histórias sobre heróis e deuses, instigando em mim o \n desejo de ser mais do que um simples mortal. Acreditava que eu era",
+      "metadata": "{\"source\":\"blob\",\"blobType\":\"\",\"pdf\":{\"version\":\"1.10.100\",\"info\":{\"PDFFormatVersion\":\"1.4\",\"IsAcroFormPresent\":false,\"IsXFAPresent\":false,\"Title\":\"A História de Alexandre, o Grande - Google Docs\",\"Creator\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\",\"Producer\":\"Skia/PDF m130\",\"CreationDate\":\"D:20241111180044+00'00'\",\"ModDate\":\"D:20241111180044+00'00'\"},\"metadata\":null,\"totalPages\":4},\"loc\":{\"pageNumber\":1,\"lines\":{\"from\":1,\"to\":14}}}"
+    }
+  ],
+  "Tool": [
+    {
+      "id": "f9273407-102f-43a9-a472-5e4fb2fd85f1",
+      "name": "todays_date_time",
+      "description": "Useful to get todays day, date and time.",
+      "color": "linear-gradient(rgb(84,26,112), rgb(2,229,191))",
+      "iconSrc": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/javascript.svg",
+      "schema": "[]",
+      "func": "const timeZone = 'Europe/Lisbon';\nconst options = {\n    timeZone: timeZone,\n    year: 'numeric',\n    month: 'long',\n    day: 'numeric',\n    weekday: 'long',\n    hour: '2-digit',\n    minute: '2-digit',\n    second: '2-digit',\n    hour12: true\n};\nconst today = new Date();\nconst formattedDate = today.toLocaleString('pt-PT', options);\nconst result = {\n    \"formattedDate\": formattedDate,\n    \"timezone\": timeZone\n};\nreturn JSON.stringify(result);\n"
+    },
+    {
+      "id": "277c93dd-fe81-49ca-b718-7967c7e02b55",
+      "name": "get_postgres_tables",
+      "description": "Usa esta tool para obter informação dos clientes da base de dados postgres.",
+      "color": "linear-gradient(rgb(54,135,66), rgb(161,181,50))",
+      "iconSrc": "",
+      "schema": "[]",
+      "func": "const fetch = require('node-fetch');\n\nconst url = 'http://127.0.0.1:5678/webhook/69f93b22-0421-4435-aaa0-de386e99431c';\nconst token = $vars.Authorization; // variável definida no Flowise\n\nconsole.log('Token:', token);\n\nconst options = {\n    method: 'GET',\n    headers: {\n        'Content-Type': 'application/json',\n        'Authorization': `Bearer ${token}`\n    }\n};\n\ntry {\n    const response = await fetch(url, options);\n    const text = await response.text();\n    console.log('Resposta bruta:', text);\n\n    let json;\n    try {\n        json = JSON.parse(text);\n    } catch (parseError) {\n        console.error('Erro ao fazer parse do JSON:', parseError.message);\n        throw new Error('Resposta inválida. Esperado JSON, recebido: ' + text);\n    }\n\n    console.log('Resposta JSON:', JSON.stringify(json, null, 2));\n\n    // Verificação para garantir que a resposta contém um array com objetos no formato esperado\n    if (Array.isArray(json) && json.every(item => item.id && item.nome && item.email && item.telefone)) {\n        // Retorna os dados completos para o Flowise\n        return json.map(item => ({\n            id: item.id,\n            nome: item.nome,\n            email: item.email,\n            telefone: item.telefone,\n            data_nascimento: item.data_nascimento,\n            endereco: item.endereco,\n            criado_em: item.criado_em\n        }));\n    } else {\n        console.warn('Formato inesperado na resposta JSON.');\n        return [];\n    }\n\n} catch (error) {\n    console.error('Erro no fetch:', error);\n    return [];\n}\n"
+    },
+    {
+      "id": "4fd5c284-dd2f-40dc-a3e7-ddc647665b52",
+      "name": "todays_date_time_assistente",
+      "description": "Useful to get todays day, date and time.",
+      "color": "linear-gradient(rgb(145,41,222), rgb(165,116,32))",
+      "iconSrc": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/javascript.svg",
+      "schema": "[]",
+      "func": "const timeZone = 'Europe/Lisbon';\nconst options = {\n    timeZone: timeZone,\n    year: 'numeric',\n    month: 'long',\n    day: 'numeric',\n    weekday: 'long',\n    hour: '2-digit',\n    minute: '2-digit',\n    second: '2-digit',\n    hour12: true\n};\nconst today = new Date();\nconst formattedDate = today.toLocaleString('en-GB', options);\nconst result = {\n    \"formattedDate\": formattedDate,\n    \"timezone\": timeZone\n};\nreturn JSON.stringify(result);\n"
+    }
+  ],
+  "Variable": [
+    {
+      "id": "b2a96aeb-1340-45d5-a407-6dc9a6d7afe8",
+      "name": "Authorization",
+      "value": "Mjos2312",
+      "type": "static"
+    }
+  ]
+}
